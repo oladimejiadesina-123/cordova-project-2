@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <!--
+        Customize this policy to fit your own app's needs. For more guidance, see:
+            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+        Some notes:
+            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <meta name="color-scheme" content="light dark">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="./css/fontawesome-free-5.15.3-desktop/">
+        <title>Next Website</title>
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="nabvar__container">
+                <a href="/" id="navbar__logo"><i class="fas fa-gem"></i><i class="fas fa-fan"></i>Next</a>
+                <div class="navbar__toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="navbar__menu">
+                    <li class="navbar__items">
+                        <a href="/" class="navbar__links">Home</a>
+                    </li>
+                    <li class="navbar__items">
+                        <a href="./tech.html" class="navbar__links">Tech</a>
+                    </li>
+                    <li class="navbar__items">
+                        <a href="/" class="navbar__links">Products</a>
+                    </li>
+                    <li class="navbar__btn">
+                        <a href="/" class="button">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!------------------------ hero ----------------------------->
+        <div class="main">
+            <div class="main__container">
+                <div class="main__content">
+                    <h1>THIS THE TECH PAGE</h1>
+                    <h2>TECHNOLOGY</h2>
+                    <p>See What Makes us different</p>
+                    <button class="main__btn"><a href="/">GET STARTED</a></button>
+                </div>
+                <div class="main__img_container">
+                    <img src="./img/pic2.jpg" alt="loo-pics1" id="main__img">
+                </div>
+            </div>
+        </div>
+        <!-- -------------services ---------------->
+        <div class="services">
+            <h1>See what hype is about</h1>
+            <div class="services__container">
+                <div class="services__card">
+                    <h2>Experience Bliss</h2>
+                    <p>AI Powered Technology</p>
+                    <button>GET STARTED</button>
+                </div>
+                <div class="services__card">
+                    <h2>Are you Ready?</h2>
+                    <p>Take th leap</p>
+                    <button>GET STARTED</button>
+                </div>
+            </div>
+        </div>
+        <!---------------- footer--------------------->
+            <div class="footer__container">
+                <div class="footer__links">
+                    <div class="footer__links__wrapper">
+                        <div class="footer__links_items">
+                            <h2>About Us</h2>
+                            <a href="/">How it works</a>
+                            <a href="/">Testimonials</a>
+                            <a href="/">Career</a>
+                            <a href="/">Investments</a>
+                            <a href="/">Terms of service</a>
+                        </div>
+                        <div class="footer__links_items">
+                            <h2>Contact Us</h2>
+                            <a href="/">Contact</a>
+                            <a href="/">Support</a>
+                            <a href="/">Destination</a>
+                            <a href="/">Sponsorship</a>
+                            <a href="/">Terms of service</a>
+                        </div>
+                        <div class="footer__links_items">
+                            <h2>Video</h2>
+                            <a href="/">Submit videos</a>
+                            <a href="/">Ambassadors</a>
+                            <a href="/">Agency</a>
+                            <a href="/">Investments Funds</a>
+                            <a href="/">Influence</a>
+                        </div>
+                        <div class="footer__links_items">
+                            <h2>Social Media</h2>
+                            <a href="/">Facebook</a>
+                            <a href="/">Twitter</a>
+                            <a href="/">Youtube</a>
+                            <a href="/">Instagram</a>
+                            <a href="/">Linked in</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <script src="cordova.js"></script>
+        <script src="js/index.js"></script>
+        <script src="https://kit.fontawesome.com/2485365e78.js" crossorigin="anonymous"></script>
+    </body>
+</html>
